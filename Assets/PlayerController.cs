@@ -65,7 +65,7 @@ public class PlayerController : MonoBehaviour
 
         movement = Vector3.Lerp(movement, Vector3.forward * speed * Input.GetAxis("Vertical"), Time.deltaTime * 1f);
         movement.y -= 0.1f * Time.deltaTime;
-        movement.z = Mathf.Clamp01(movement.z);
+        //movement.z = Mathf.Clamp01(movement.z);
         GetComponent<CharacterController>().Move(transform.TransformVector(movement));
         
         

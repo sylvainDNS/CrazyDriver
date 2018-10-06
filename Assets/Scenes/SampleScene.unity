@@ -168,6 +168,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.99
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 27ae1315ca7386c4380ea66773476fc4, type: 3}
+      propertyPath: m_TagString
+      value: PlayerShip
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27ae1315ca7386c4380ea66773476fc4, type: 3}
   m_IsPrefabAsset: 0
@@ -181,7 +185,7 @@ GameObject:
   - component: {fileID: 124568414}
   m_Layer: 0
   m_Name: PivotPoint
-  m_TagString: Untagged
+  m_TagString: PlayerShip
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -389,6 +393,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 58752080b7a2b014b984236fa50b1a31, type: 3}
+      propertyPath: m_TagString
+      value: PlayerShip
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58752080b7a2b014b984236fa50b1a31, type: 3}
   m_IsPrefabAsset: 0
@@ -534,6 +542,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.98999995
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 27ae1315ca7386c4380ea66773476fc4, type: 3}
+      propertyPath: m_TagString
+      value: PlayerShip
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27ae1315ca7386c4380ea66773476fc4, type: 3}
   m_IsPrefabAsset: 0
@@ -547,7 +559,7 @@ GameObject:
   - component: {fileID: 1128089713}
   m_Layer: 0
   m_Name: CanonLeft
-  m_TagString: Untagged
+  m_TagString: PlayerShip
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -575,7 +587,7 @@ GameObject:
   - component: {fileID: 1792292874}
   m_Layer: 0
   m_Name: CanonRight
-  m_TagString: Untagged
+  m_TagString: PlayerShip
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -627,7 +639,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 3.58
-  m_Radius: 0.5
+  m_Radius: 3.6
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
@@ -660,7 +672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1082449f36784bccb66e6f2948648b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 1982205144292218, guid: 9e93ac4d966da4c3aa7f4b830c279ea6, type: 2}
+  enemy: {fileID: 1634937627820760, guid: 9c8b7c9ed8fd64d5184b080f36ac628d, type: 2}
   frequence: 2
 --- !u!4 &1896561538
 Transform:
@@ -688,7 +700,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d5f02142fd614bc429559c3d9c05482c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 2.14
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d5f02142fd614bc429559c3d9c05482c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -717,6 +729,14 @@ Prefab:
     - target: {fileID: 400000, guid: d5f02142fd614bc429559c3d9c05482c, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: d5f02142fd614bc429559c3d9c05482c, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d5f02142fd614bc429559c3d9c05482c, type: 3}
+      propertyPath: m_TagString
+      value: PlayerShip
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5f02142fd614bc429559c3d9c05482c, type: 3}
